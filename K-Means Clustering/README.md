@@ -1,4 +1,8 @@
 # Description
 
-This is a classification model that uses logistic regression to predict whether a customer in a telecommunication company 
-will decide to unsubscribe given his income and age and income and so on.
+This is an unsupervised machine learning model used for clustering data into different groups
+using K-Means Clustering approach.
+
+- [`./generated_data_clustering.py`](./generated_data_clustering.py) this uses k-means clustering on random generated data.
+
+- [`./dataset_clustering.py`](./dataset_clustering.py) this uses k-means clustering on the demographic data of a number of customers in `Cust_Segmentation.csv`.
